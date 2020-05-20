@@ -42,10 +42,10 @@ Note, the \maketitle command is very basic. It will only format the title and da
 2. The \doctitle[date]{title} command
 
 This command produces a title at the top of the page and should be used at the start of a document like the bylaws. The optional argument should be used for a last amended/adopted date. For example
-
+```
 \doctitle[As amended, May 2020]{Bylaws of the Sample Organization}
-
-(this command also resets the page counter back to 1 and the article (chapter) counter so the first use of \article (or \chapter) will produce Article I.)
+```
+(This command also resets the page counter back to 1 and the article (chapter) counter so the first use of \article will produce Article I.)
 
 I recommend putting a \pagebreak before starting a new document, so the title goes at the top of a new page.
 
