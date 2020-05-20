@@ -89,7 +89,7 @@ In any event, it's worth being careful with any commands that might change text 
 I personally like to have line numbers running in the margin for ease of reference. By default, line numbering is disabled, but the class automatically loads the lineno package, so linenumbering can be enabled by putting everything you want numbered in a linenumbers environment.
 
 ### Draft watermark
-
+(NOT CURRENTLY WORKING - For some reason code that works fine by itself, doesn't work when called after an option declaration)
 If you want a "DRAFT" watermark page, just include "draft" as an optional argument in the document class specification.
 
 ## Some other typographic advice
