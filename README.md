@@ -54,11 +54,15 @@ I recommend putting a \pagebreak before starting a new document, so the title go
 This class uses the following formating and numbering:
 
 Article III
+
 Officers
 
 Section 2. Duties of Officers.
+
      2.1. President. The duties of the president shall be as follows:
+     
          2.1.1. Preside and preserve order at all meetings; and
+         
          2.1.2. Represent the organization at public events.
 
 This class is built on top of the standard "report" class, and so builds on its features.
