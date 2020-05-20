@@ -88,8 +88,11 @@ In any event, it's worth being careful with any commands that might change text 
 
 I personally like to have line numbers running in the margin for ease of reference. By default, line numbering is disabled, but the class automatically loads the lineno package, so linenumbering can be enabled by putting everything you want numbered in a linenumbers environment.
 
+At some point I'll figure out how to enable and disable linenumbering via a class option.
+
 ### Draft watermark
 (NOT CURRENTLY WORKING - For some reason code that works fine by itself, doesn't work when called after an option declaration)
+
 If you want a "DRAFT" watermark page, just include "draft" as an optional argument in the document class specification.
 
 ## Some other typographic advice
@@ -112,7 +115,7 @@ Where appropriate for a document of this sort, I try to follow Bringhurst's *The
 ### Margins
 
 The margins are set at 1.2in all around. This results in lines that are longer than typically recommended by typograpers. I've picked smaller margins (longer line lengths) for two reasons:
-1. Very few people sit down and read bylaws like a novel. They're reference documents, and longer lengths means fewer pages and thus less time flipping between pages.
-2. Because the documents I work with tend to make heavy use of subsections (which are indented in this format), with larger margins, the subsections and lower levels would have uncomfortably short line lengths.
+1. Very few people sit down and read bylaws like a novel. They're reference documents, and longer line lengths means fewer pages and thus less time flipping between pages.
+2. Because the documents I work with tend to make heavy use of subsections (which are indented in this format), larger margins would cause uncomfortably short line lengths in the lower levels.
 
-If you are working with a document that doesn't use levels below sections much, you might want to increase the margins just a bit. Margins are set by the geometry package near the start of the class. If you want to modify the margins, you need to edit the declaration there (loading geometry package in your tex file with different settings will cause an error.)
+If you are working with a document that doesn't use levels below sections much, you might want to increase the margins just a bit. Margins are set by the geometry package near the start of the class. If you want to modify the margins, you need to edit the declaration there (loading geometry package in your tex file with different settings will cause an error).
