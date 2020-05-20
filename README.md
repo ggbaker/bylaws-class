@@ -1,6 +1,6 @@
 # Bylaws
 
-This repository provides a class for typesetting governing documents (such as bylaws or corporate charters). The format is *very* roughly inspired by the formatting of the bylaws of the [National Association of Parliamentarians](https://www.parliamentarians.org).
+This repository provides a class for typesetting governing documents (such as bylaws or corporate charters). The format is *very* roughly inspired by the formatting of an old copies of the bylaws of the [American Institute of Parliamentarians](https://aipparl.wildapricot.org) and of the [National Association of Parliamentarians](https://www.parliamentarians.org).
 
 This was mostly a hobby project for me, combining an interest in parliamentary law and typesetting. Most governing documents I've come across are very utilitarian documents, and this arose out of an attempt to produce a well-typeset set of bylaws without sacrificing legibility and ease of reference.
 
