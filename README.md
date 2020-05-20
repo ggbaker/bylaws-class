@@ -78,7 +78,7 @@ I generally prefer first-level level subsections to have a title. I've thus prov
 
 The \artref{article name} command will automatically produce a hyperlinked cross-reference to the given article. I personally don't like to cross-reference specific sections because it's too easy to forget to update them when amending documents. You can of course, cross-reference sections, by assigning a label to them and using the \ref command as normal.
 
-N.B. Care should be taken with a command like this, if you are using this as a master document, as it will automatically update numbers which may not be a desired effect if an explicit amendment wasn't passed. I generally feel cross-references should automatically update if an amendment changes the numbering, even if the cross-reference update wasn't explicitly included in the amendment, but others may more sticklers for the rules. 
+N.B. Care should be taken with a command like this, if you are using this as a master document, as it will automatically update numbers which may not be a desired effect if an explicit amendment wasn't passed. I generally feel cross-references should automatically update if an amendment changes the numbering, even if the cross-reference update wasn't explicitly included in the amendment, but others may be more sticklers for the rules. 
 
 In any event, it's worth being careful with any commands that might change text as a consequence of an edit in a different part of the file.
 
