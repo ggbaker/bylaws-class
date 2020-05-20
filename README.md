@@ -68,7 +68,7 @@ This class is built on top of the standard "report" class, and so builds on its 
 
 2. The \section{} command produces a new section, as expected.
 
-N.B. In order to produce the formatting intended, all sections should end with a \\ linebreak. At some point, I'll figure out how to get that linebreak automatically. (I can get a linebreak before the start of a section, but I haven't figured out how to get it without doubling with the linebreak that follows the start of a new article.)
+N.B. In order to produce the formatting intended, all sections should end with a \\\\ linebreak. At some point, I'll figure out how to get that linebreak automatically. (I can get a linebreak before the start of a section, but I haven't figured out how to get it without doubling with the linebreak that follows the start of a new article.)
 
 3. For lower leveled sections, the enumerate environment should be used. First-level enumerate will produce numbered subsections as (Section #).(Subsection #). Second-level enumerate is numbered (Section #).(Subsection #).(Subsubsection #). Third-level enumerate are simply lettered lists.
 
