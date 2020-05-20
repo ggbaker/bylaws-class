@@ -1,6 +1,6 @@
 # Bylaws
 
-This repository provides a class for typesetting governing documents (such as bylaws or corporate charters). The format is *very* roughly inspired by the formatting of an old copies of the bylaws of the [American Institute of Parliamentarians](https://aipparl.wildapricot.org) and of the [National Association of Parliamentarians](https://www.parliamentarians.org).
+This repository provides a class for typesetting governing documents (such as bylaws or corporate charters). The format is *very* roughly inspired by the formatting of old copies of the bylaws of the [American Institute of Parliamentarians](https://aipparl.wildapricot.org) and of the [National Association of Parliamentarians](https://www.parliamentarians.org).
 
 This was mostly a hobby project for me, combining an interest in parliamentary law and typesetting. Most governing documents I've come across are very utilitarian documents, and this arose out of an attempt to produce a well-typeset set of bylaws without sacrificing legibility and ease of reference.
 
@@ -45,7 +45,7 @@ This command produces a title at the top of the page and should be used at the s
 
 \doctitle[As amended, May 2020]{Bylaws of the Sample Organization}
 
-(this command also resets the article (chapter) counter so the first use of \article (or \chapter) will produce Article I.)
+(this command also resets the page counter back to 1 and the article (chapter) counter so the first use of \article (or \chapter) will produce Article I.)
 
 I recommend putting a \pagebreak before starting a new document, so the title goes at the top of a new page.
 
