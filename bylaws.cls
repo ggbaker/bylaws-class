@@ -95,9 +95,10 @@
 % The \doctitle command produces a title heading at the start of a page
 % and can be used multiple times in a file
 \newcommand{\doctitle}[2][]{
-  % reset the article (chapter) counter
+  % reset the article (chapter) counter and page counter
   \setcounter{chapter}{0}
   \renewcommand*{\theHchapter}{chX.\the\value{chapter}}
+  \setcounter{page}{1}
   % format the title
   \centerline{\large \TitleFont
       \MakeUppercase{#2}}
