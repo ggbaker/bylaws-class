@@ -73,6 +73,13 @@
   Kerning=Off,
   WordSpace=1.05]{Libertinus Serif}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Spacing
+
+% Enable single space after a period.
+\frenchspacing
+% Increase spacing between lines a bit
+\linespread{1.1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Format document title
@@ -84,7 +91,7 @@
 \renewcommand{\maketitle}{
   \begin{titlepage}
     \begin{center}
-      \vspace*{15\baselineskip}
+      \vspace*{13\baselineskip}
       {\LARGE \TitleFont \MakeUppercase{\@title}\par}
       \vspace{1.5em}
       {\LARGE \DisplayFont \@date \par}
